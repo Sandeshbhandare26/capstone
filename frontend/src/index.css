@@ -1,0 +1,21 @@
+/* ════════════════════════════════════════════════════════════════
+   LivestockAI — stylesheet entry point.
+
+   Import order is load-bearing: tokens define the variables that every
+   later layer resolves against, base sets element defaults, then the
+   component layers override in increasing specificity.
+
+     tokens    variables only, no selectors that paint
+     base      reset + element defaults
+     ui        design-system primitives (.btn, .card, .input, …)
+     shell     app frame (sidebar, topbar, page)
+     features  domain components (upload, result, camera, marketing)
+   ════════════════════════════════════════════════════════════════ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap");
+
+@import "./styles/tokens.css";
+@import "./styles/base.css";
+@import "./styles/ui.css";
+@import "./styles/shell.css";
+@import "./styles/features.css";

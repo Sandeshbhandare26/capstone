@@ -1,0 +1,11 @@
+    # Everything needed to run the backend AND train the model.
+#
+#   python -m venv .venv
+#   .venv/Scripts/activate      (Windows)   |   source .venv/bin/activate  (macOS/Linux)
+#   pip install -r requirements.txt
+#
+# For a backend-only or training-only install, use backend/requirements.txt
+# or ml-service/requirements.txt instead.
+
+-r backend/requirements.txt
+-r ml-service/requirements.txt
